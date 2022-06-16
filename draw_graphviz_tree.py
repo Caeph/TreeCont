@@ -1,8 +1,6 @@
 import argparse
 import math
-
 import networkx as nx
-import pandas as pd
 from Bio import Phylo as ph
 import os
 

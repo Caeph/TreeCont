@@ -1,13 +1,6 @@
-import math
-import sys
 import networkx as nx
-import pandas as pd
 from Bio import Phylo as ph
-import os
-from collections import Counter
 import argparse
-from pyfastaq.sequences import file_reader as fasta_reader
-import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--tree_file",
